@@ -1,0 +1,1 @@
+print("This is a useless file")*10
