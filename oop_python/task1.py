@@ -15,7 +15,7 @@ class BankAccount:
             if amount <= self.balance:
                 print(f"Withdrawn: {amount}. Your new balance is: {self.balance}")
             else: 
-                print("You do not have enough balance")
+                print(f"You do not have enough balance. Your current balance is {self.balance}")
         
         else:
             print("Withdraw amount must be a positive integer.")
