@@ -9,13 +9,11 @@ class Fighter:
         self.loss = loss
         self.draw = draw
         print(f"{self.name} has a professional record of ({self.win}-{self.loss}-{self.draw})")
-
     @dispatch(int, int)
     def add_record(self, win, loss):
         self.win = win
         self.loss = loss
         print(f"{self.name} has a professional record of ({self.win}-{self.loss})")
-
     @dispatch(int)
     def add_record(self, win):
         self.win = win
